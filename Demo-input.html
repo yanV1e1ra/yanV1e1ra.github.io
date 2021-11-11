@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demonstração dos inputs</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Função text:</legend>
+            <label>Digite seu nome:</label>
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend>Função password:</legend>
+            <label>Digite sua senha:</label>
+            <input type="password">
+        </fieldset>
+        <fieldset>
+            <legend>Função date:</legend>
+            <label>Digite sua data de nascimento:</label>
+            <input type="date">
+        </fieldset>
+        <fieldset>
+            <legend>Função radio:</legend>
+            <label for="info">Qual é o seu gênero:</label>
+            <input type="radio" name="form" id="masc">
+            <label for="masc">Masculino</label>
+            <input type="radio" name="form" id="fem">
+            <label for="fem">Feminino</label>
+            <input type="radio" name="form" id="info">
+            <label for="info">Prefiro não informar</label>
+        </fieldset>
+        <fieldset>
+            <legend>Função checkbox</legend>
+            <label>Linguagens que você deseja aprender:</label><br>
+            <label>HTML</label>
+            <input type="checkbox"><br>
+            <label>CSS</label>
+            <input type="checkbox"><br>
+            <label>JavaScrypt</label>
+            <input type="checkbox">
+        </fieldset>
+        <fieldset>
+            <legend>Função range:</legend>
+            <label>Em uma escala de 1 a 10, qual o seu nível de dor?</label>
+            <input type="range" min="0" max="10">
+        </fieldset>
+        <fieldset>
+            <legend>Função reset e submit:</legend>
+            <label>Clique aqui para redefinir suas respostas:</label>
+            <input type="reset"><br><br>
+            <label>Clique aqui para enviar suas respsotas</label>
+            <input type="submit" value="Send">
+        </fieldset>
+    </form>
+</body>
+</html>

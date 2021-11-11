@@ -1,0 +1,29 @@
+.box1{
+    border: groove;
+    background-color: rgb(255, 123, 0);
+}
+
+.box2{
+    border: groove;
+    background-color: rgba(21, 253, 0, 0.4);  
+}
+
+.box3{
+    border: groove;
+    background-image:linear-gradient(rgba(255, 0, 0, 0.5),rgb(8, 8, 235, 0.5)) 
+}
+
+.box4{
+    border: groove;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-image: url(redstar.png); 
+}
+
+.box5{
+    border: groove;
+    background-size: contain; 
+    background-repeat: repeat;
+    background-image: url(redstar.png);  
+}
+

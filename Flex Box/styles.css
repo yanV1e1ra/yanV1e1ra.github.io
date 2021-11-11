@@ -1,0 +1,25 @@
+main{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+    background-color: rgb(176, 219, 236);
+}
+
+body{
+    background-color: rgb(59, 0, 94);
+}
+
+.box {
+    display: flex;
+    align-items: flex-end;
+    align-content: space-between;
+    flex-flow: row wrap;
+}
+
+.box>* {
+    flex: 1 1 160px;
+}

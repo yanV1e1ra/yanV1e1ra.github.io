@@ -1,0 +1,38 @@
+h2{
+    font-size: 40px;
+    text-shadow: 1px 1px 1px blue,
+                 1px 2px 1px blue;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: wavy underline darkturquoise;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(1, 41, 43);
+}
+
+p{
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: left;
+    color: white;
+}
+
+legend{
+    font-size: 40px;
+    color: darkslateblue;
+    font-family: fantasy;
+}
+
+a{
+    color: rgb(110, 0, 161);
+}
+
+

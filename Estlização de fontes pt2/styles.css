@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(59, 0, 94);
+}
+
+ul {
+    list-style-type: upper-roman;
+  }
+
+a{
+    color: rgb(0, 126, 6);
+}
+
+a:hover{
+  color:rgb(255, 0, 255);
+}
+ 
+#link1:visited{
+    color:red;
+}
+
+#link1:active{
+    color:rgb(0, 255, 242);
+}
+
+a:active{
+    color:rgb(1, 247, 255);
+}
+
+main{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+    background-color: rgb(176, 219, 236);
+}

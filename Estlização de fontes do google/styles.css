@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Zen+Kurenaido&display=swap');
+
+main{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+    background-color: rgb(176, 219, 236);
+}
+
+body{
+    background-color: rgb(59, 0, 94);
+}
+
+p{
+    font-size: 20px;
+}
+#p1{
+    font-family:'Zen Kurenaido', sans-serif; 
+}
+
+#p2{
+    font-family:'Festive', cursive; 
+}
+

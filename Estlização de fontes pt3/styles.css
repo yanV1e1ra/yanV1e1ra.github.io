@@ -1,0 +1,45 @@
+main{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+    background-color: rgb(176, 219, 236);
+}
+
+body{
+    background-color: rgb(59, 0, 94);
+}
+
+@font-face {
+    font-family: 'qahiriregular';
+    src: url('fontes/qahiri-regular-webfont.woff2') format('woff2'),
+         url('fontes/qahiri-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans_condensedlight';
+    src: url('fontes/opensanscondensed-light-webfont.woff2') format('woff2'),
+         url('fontes/opensanscondensed-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p{
+    font-size: 25px;
+}
+
+#p1{
+    font-family:'qahiriregular';
+}
+
+#p2{
+    font-family: 'open_sans_condensedlight';
+}
+
+

@@ -1,0 +1,22 @@
+body{
+  background-color: grey;
+}
+
+p {
+  font-size: 40px;
+  color: black;
+}
+
+ul {
+  font-size: 20px;
+  color: cyan;  
+}
+
+li {
+  list-style-type: circle;
+}
+
+.special {
+  color: crimson;
+  font-weight: bold;
+}

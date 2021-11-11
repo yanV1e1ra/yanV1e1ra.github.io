@@ -1,0 +1,114 @@
+@font-face {
+    font-family: kellyslab;
+    src: url(https://fonts.gstatic.com/s/kellyslab/v10/-W_7XJX0Rz3cxUnJC5t6fkQLfr8nfiI.woff2);
+}
+
+body{
+    font-family: kellyslab;
+    color: white;
+    background-color: black;
+}
+
+#menu ul{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    list-style:none;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    font-size: 17px;
+    padding: 100px 20px;
+    display:inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color: rgb(216, 231, 4);
+}
+
+#logo{
+    position: absolute;
+    padding: 30px;
+    margin-top: -200px;
+    margin-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    color: rgb(216, 231, 4);
+    width: 250px;
+    height: 169px;
+}
+
+#hr{
+    background-color: rgb(216, 231, 4);
+    width: 192;
+    height: 5;
+}
+
+#p1{
+   font-size: 50px; 
+}
+
+#p2{
+   font-size: 22px; 
+}
+
+#p3{
+    font-size: 16px;
+    letter-spacing: 1em;    
+}
+
+#img1{
+    height: 450px;
+    display: flex;
+    margin-left: 25em;
+    margin-bottom: 100px;
+    align-content: center;
+    justify-self: center;
+}
+
+#leiamais{
+    color: yellow;
+    font-size: 12px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#sec{
+    display: flex;
+    justify-content: center;
+}
+
+#sec div{
+    width: 232px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#sec div img{
+    width: 232px;
+    height: 100px;
+}
+
+footer{
+    margin-top: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.9);
+    color: rgb(255, 255, 255);
+    width: 100vw;
+    left: 0;
+    height: 50px;    
+    line-height: 30px;
+}
